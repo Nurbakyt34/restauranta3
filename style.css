@@ -2,23 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.logo{
+.logo {
     margin-left: 15px;
     margin-top: 15px;
 }
-.Sign-up{
+
+.Sign-up {
     margin-top: 90px;
     margin-left: 180px;
     font-size: 50px;
     font-family: "Raleway", sans-serif;
 }
 
-p{
+p {
     margin-left: 180px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
 }
-a{
+
+a {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     margin-left: 425px;
@@ -26,83 +28,91 @@ a{
     margin-top: -49px;
 }
 
-.login{
+.login {
     margin-left: 300px;
     margin-top: -332px;
 }
-.name{
+
+.name {
     width: 490px;
     height: 70px;
 }
-.text{
+
+.text {
     align-items: center;
 }
 
-.name{
+.name {
     border-radius: 10px;
-    background-color:  rgb(244, 239, 239);
+    background-color: rgb(244, 239, 239);
     font-size: 15px;
     align-items: center;
     margin-left: 30px;
     position: absolute;
     margin-top: -650px;
     margin-left: 190px;
-    border: none ;
+    border: none;
     padding-left: 20px;
 }
-.adress{
+
+.adress {
     border-radius: 10px;
-    background-color:  rgb(244, 239, 239);
+    background-color: rgb(244, 239, 239);
     font-size: 15px;
     align-items: center;
     margin-left: 30px;
     position: absolute;
     margin-top: -530px;
     margin-left: 190px;
-    border: none ;
+    border: none;
     width: 490px;
     height: 70px;
     padding-left: 20px;
 }
-.password{
+
+.password {
     border-radius: 10px;
-    background-color:  rgb(244, 239, 239);
+    background-color: rgb(244, 239, 239);
     font-size: 15px;
     align-items: center;
     margin-left: 30px;
     position: absolute;
     margin-top: -420px;
     margin-left: 190px;
-    border: none ;
+    border: none;
     width: 490px;
     height: 70px;
     padding-left: 20px;
 }
-.smtext{
+
+.smtext {
     margin-top: -290px;
     margin-left: 250px;
 }
-.q{
+
+.q {
     margin-left: 200px;
     margin-top: -50px;
     position: absolute;
 }
-.f{
+
+.f {
     margin-left: 520px;
-    margin-top: -48px;  
-}
-.log{
-        width: 510px;
-        height: 70px;
-        border-radius: 10px;
-        border: none;
-        color: rgb(242, 227, 227);
-        background-color: orange;
-        font-size: 20px;
-        margin-left: 190px;
+    margin-top: -48px;
 }
 
-.lo{
+.log {
+    width: 510px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(242, 227, 227);
+    background-color: orange;
+    font-size: 20px;
+    margin-left: 190px;
+}
+
+.lo {
     width: 510px;
     height: 70px;
     border-radius: 10px;
@@ -115,8 +125,9 @@ a{
     margin-top: 100px;
     margin-left: -510px;
 }
-.a{
-   margin-top: 117px;
+
+.a {
+    margin-top: 117px;
     position: absolute;
     margin-left: -400px;
 }
