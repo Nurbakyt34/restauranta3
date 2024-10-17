@@ -1,22 +1,112 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(56, 55, 55);
-}
-
-.menu {
+body {
     display: flex;
-    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6f6;
 }
 
-
-.container {
-    width: 1300px;
-    margin: auto;
-    border: 1px solid red;
+.login-container {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
 }
+
+.login-form {
+    flex: 1;
+    padding: 40px;
+}
+
+.login-form h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-form p {
+    margin-bottom: 20px;
+}
+
+.login-form a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    background-color: #f88c42;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.google-login {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-login:before {
+    content: '';
+    display: inline-block;
+    background: url('google_logo.png') no-repeat center center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login-image {
+    flex: 1;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-image img {
+    width: 80%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(10%, -10%);
+    z-index: 1;
+}
+
